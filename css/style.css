@@ -2,11 +2,156 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {}
+.container-wrapper {
+  
+}
 
-.callout-container{}
+.container-wrapper-red {
+  background-color: red;
+  color:white;
+}
+
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.callout-container{
+  height: 100vh;
+  
+  background: url(https://image.shutterstock.com/image-photo/bottle-glass-whiskey-on-wooden-260nw-304241285.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: relative;
+  
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
 
 .quotes-container{}
 
 .features-container {}
 
+.page-header {
+  margin-top: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.page-header h2 {
+ margin-top: 0; 
+}
+
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bold;
+  margin-top: 90px;
+}
+
+.jumbotron .lead {
+  color: antiquewhite;
+  margin: 25px 0;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444
+}
+
+.block-divider-orange {
+  background-color: orange
+}
+
+.block-divider-white {
+  background-color: white;
+}
+
+.block-divider-short {
+    width: 35px;
+}
+
+.content-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.btn-cta {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+
+
+.btn-red {
+  color: white;
+  background-color: red;
+  border-color: red;
+  
+}
+
+.feature .btn {
+  color: red;
+}
+
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:focus:active {
+  background-color:#960a0a;
+  border-color:#960a0a;
+  color: antiquewhite;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 40px
+}
